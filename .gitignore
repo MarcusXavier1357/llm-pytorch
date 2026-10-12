@@ -1,0 +1,35 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dados Pessoais / Corpus Privado (NÃO COMMITAR)
+chat.txt
+data/chat_cleaned.txt
+data/vocab.json
+data/vocab_bpe.json
+
+# Checkpoints e Pesos do Modelo (arquivos binários pesados)
+checkpoints/
+*.pt
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
